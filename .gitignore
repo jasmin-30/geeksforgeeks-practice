@@ -1,5 +1,6 @@
 # IDE Folders
 .vscode
+template.cpp
 
 # Prerequisites
 *.d
