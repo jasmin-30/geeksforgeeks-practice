@@ -1,6 +1,9 @@
 # IDE Folders
 .vscode
 template.cpp
+input.txt
+output.txt
+
 
 # Prerequisites
 *.d
