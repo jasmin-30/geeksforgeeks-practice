@@ -23,21 +23,20 @@ ll rev(ll n)
     return res;
 }
 
-ll power(ll n, ll r)
-{
-    if(r==0)
-        return 1;
+// ll power(ll n, ll r)
+// {
+//     if(r==0)
+//         return 1;
     
-    ll tmp = (ll)(power(n,r/2));
+//     ll tmp = (ll)power(n, (r/2));
 
-    if(r%2 == 1)
-        return (ll)((ll)(n%M)*(ll)((tmp%M)*(tmp%M)) % M) % M;
-    else
-        return (ll)(tmp%M*tmp%M)%M;
-    
-}
+//     if(r%2 == 1)
+//         return (ll)((ll)(n % M) * (ll)(tmp % M) * (ll)(tmp % M)) % M;
+//     else
+//         return (ll)((ll)(tmp % M) * (ll)(tmp % M)) % M;
+// }
 
-/*
+
 ll power(ll n, ll r)
 {
     n %= M;
@@ -51,7 +50,7 @@ ll power(ll n, ll r)
     }
     return res;
 }
-*/
+
 
 
 int main()
